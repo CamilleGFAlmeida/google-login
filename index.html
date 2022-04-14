@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Login</title>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js">
+    </script> <!-- biblioteca JWT -->
+
+    <script src="js.js"></script> <!-- referência -->
+   
+    
+</head>
+<body>
+    <div id="buttonDiv"></div> 
+
+    <!-- exibindo as informações para o usuário -->
+    <p id="fullName"></p>
+    <p id="sub"></p>
+    <p id="given_name"></p>
+    <p id="family_name"></p>
+    <p id="email"></p>
+    <p id="verifiedEmail"></p>
+    <img id="picture" /> <!-- imagem do google do usuário -->
+    
+    
+
+    
+</body>
+</html>
